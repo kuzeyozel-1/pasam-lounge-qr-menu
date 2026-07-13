@@ -2,30 +2,40 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-const SESSION_KEY = "pasam-lounge-admin-auth";
-// Geçici mock şifre - ileride .env'ye taşınacak.
-const ADMIN_PASSWORD = "admin123";
-
 export function useAdminAuth() {
   const [isAuthed, setIsAuthed] = useState(false);
   const [isChecking, setIsChecking] = useState(true);
 
   useEffect(() => {
-    const stored = window.sessionStorage.getItem(SESSION_KEY);
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setIsAuthed(stored === "true");
-    setIsChecking(false);
+    let cancelled = false;
+    fetch("/api/auth/session", { cache: "no-store" })
+      .then((res) => res.json())
+      .then((json: { authed: boolean }) => {
+        if (cancelled) return;
+        setIsAuthed(json.authed);
+        setIsChecking(false);
+      })
+      .catch(() => {
+        if (!cancelled) setIsChecking(false);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  const login = useCallback((password: string) => {
-    if (password !== ADMIN_PASSWORD) return false;
-    window.sessionStorage.setItem(SESSION_KEY, "true");
-    setIsAuthed(true);
-    return true;
+  const login = useCallback(async (password: string) => {
+    const res = await fetch("/api/auth/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password }),
+    });
+    const success = res.ok;
+    if (success) setIsAuthed(true);
+    return success;
   }, []);
 
-  const logout = useCallback(() => {
-    window.sessionStorage.removeItem(SESSION_KEY);
+  const logout = useCallback(async () => {
+    await fetch("/api/auth/logout", { method: "POST" }).catch(() => {});
     setIsAuthed(false);
   }, []);
 

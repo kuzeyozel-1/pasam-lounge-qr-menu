@@ -8,7 +8,7 @@ import { ThemeLogo } from "@/components/theme/theme-logo";
 import { cn } from "@/lib/utils";
 
 interface AdminLoginProps {
-  onLogin: (password: string) => boolean;
+  onLogin: (password: string) => Promise<boolean>;
 }
 
 export function AdminLogin({ onLogin }: AdminLoginProps) {
@@ -16,9 +16,9 @@ export function AdminLogin({ onLogin }: AdminLoginProps) {
   const [error, setError] = useState(false);
   const toast = useToast();
 
-  function handleSubmit(event: FormEvent) {
+  async function handleSubmit(event: FormEvent) {
     event.preventDefault();
-    const success = onLogin(password);
+    const success = await onLogin(password);
     if (success) {
       toast({ title: "Giriş başarılı", variant: "success" });
     } else {

@@ -55,28 +55,44 @@ export function AdminDashboard({ onLogout }: AdminDashboardProps) {
     setFormOpen(true);
   }
 
-  function handleSubmit(values: Omit<Product, "id">, id?: string) {
-    if (id) {
-      updateProduct(id, values);
-      toast({ title: "Ürün başarıyla güncellendi" });
-    } else {
-      addProduct(values);
-      toast({ title: "Ürün başarıyla eklendi" });
+  async function handleSubmit(values: Omit<Product, "id">, id?: string) {
+    try {
+      if (id) {
+        await updateProduct(id, values);
+        toast({ title: "Ürün başarıyla güncellendi" });
+      } else {
+        await addProduct(values);
+        toast({ title: "Ürün başarıyla eklendi" });
+      }
+      setFormOpen(false);
+    } catch {
+      toast({
+        title: "Kaydedilemedi",
+        description: "Bağlantı sorunu olabilir, tekrar deneyin.",
+        variant: "error",
+      });
     }
-    setFormOpen(false);
   }
 
-  function handleDelete(product: Product) {
-    deleteProduct(product.id);
-    toast({ title: "Ürün silindi", variant: "info" });
+  async function handleDelete(product: Product) {
+    try {
+      await deleteProduct(product.id);
+      toast({ title: "Ürün silindi", variant: "info" });
+    } catch {
+      toast({ title: "Silinemedi", variant: "error" });
+    }
   }
 
-  function handleToggle(product: Product) {
-    toggleProductVisibility(product.id);
-    toast({
-      title: product.visible ? "Ürün gizlendi" : "Ürün görünür yapıldı",
-      variant: "info",
-    });
+  async function handleToggle(product: Product) {
+    try {
+      await toggleProductVisibility(product.id);
+      toast({
+        title: product.visible ? "Ürün gizlendi" : "Ürün görünür yapıldı",
+        variant: "info",
+      });
+    } catch {
+      toast({ title: "Güncellenemedi", variant: "error" });
+    }
   }
 
   return (

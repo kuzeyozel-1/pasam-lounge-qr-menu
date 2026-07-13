@@ -11,68 +11,50 @@ import {
 import defaultSettings from "@/data/settings.json";
 import type { SiteSettings } from "@/types/settings";
 
-const STORAGE_KEY = "pasam-lounge-settings";
-
 interface SettingsContextValue {
   settings: SiteSettings;
-  updateSettings: (next: SiteSettings) => void;
+  isLoading: boolean;
+  updateSettings: (next: SiteSettings) => Promise<void>;
 }
 
 const SettingsContext = createContext<SettingsContextValue | null>(null);
-
-function loadFromStorage(): SiteSettings | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw) as SiteSettings;
-  } catch {
-    return null;
-  }
-}
-
-function saveToStorage(settings: SiteSettings) {
-  try {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
-  } catch {
-    // localStorage kullanılamıyor (gizli mod/kota) - sessizce yoksay.
-  }
-}
 
 export function SettingsProvider({ children }: { children: React.ReactNode }) {
   const [settings, setSettings] = useState<SiteSettings>(
     defaultSettings as SiteSettings
   );
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const stored = loadFromStorage();
-    if (stored) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setSettings(stored);
-    }
+    let cancelled = false;
+    fetch("/api/settings", { cache: "no-store" })
+      .then((res) => res.json())
+      .then((json: SiteSettings) => {
+        if (cancelled) return;
+        setSettings(json);
+        setIsLoading(false);
+      })
+      .catch(() => {
+        if (!cancelled) setIsLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  useEffect(() => {
-    function handleStorage(event: StorageEvent) {
-      if (event.key !== STORAGE_KEY || !event.newValue) return;
-      try {
-        setSettings(JSON.parse(event.newValue));
-      } catch {
-        // ignore malformed cross-tab payload
-      }
-    }
-    window.addEventListener("storage", handleStorage);
-    return () => window.removeEventListener("storage", handleStorage);
-  }, []);
-
-  const updateSettings = useCallback((next: SiteSettings) => {
+  const updateSettings = useCallback(async (next: SiteSettings) => {
     setSettings(next);
-    saveToStorage(next);
+    const res = await fetch("/api/settings", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(next),
+    });
+    if (!res.ok) throw new Error("Ayarlar kaydedilemedi");
   }, []);
 
   const value = useMemo(
-    () => ({ settings, updateSettings }),
-    [settings, updateSettings]
+    () => ({ settings, isLoading, updateSettings }),
+    [settings, isLoading, updateSettings]
   );
 
   return (

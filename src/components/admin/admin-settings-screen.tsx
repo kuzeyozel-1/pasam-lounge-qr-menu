@@ -40,9 +40,17 @@ export function AdminSettingsScreen({ onLogout }: AdminSettingsScreenProps) {
     }
   }, [settings]);
 
-  function handleSave() {
-    updateSettings(draft);
-    toast({ title: "Ayarlar kaydedildi" });
+  async function handleSave() {
+    try {
+      await updateSettings(draft);
+      toast({ title: "Ayarlar kaydedildi" });
+    } catch {
+      toast({
+        title: "Kaydedilemedi",
+        description: "Bağlantı sorunu olabilir, tekrar deneyin.",
+        variant: "error",
+      });
+    }
   }
 
   return (
