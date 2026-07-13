@@ -1,0 +1,1972 @@
+{
+  "categories": [
+    {
+      "id": "kahvaltilar",
+      "name": "Kahvaltılar",
+      "icon": "croissant"
+    },
+    {
+      "id": "tost-sandvic-gozleme",
+      "name": "Tost, Sandviç & Gözleme",
+      "icon": "sandwich"
+    },
+    {
+      "id": "burger-wrap-patso",
+      "name": "Burger, Wrap & Patso",
+      "icon": "chef-hat"
+    },
+    {
+      "id": "ana-yemekler",
+      "name": "Ana Yemekler",
+      "icon": "beef"
+    },
+    {
+      "id": "makarna-salata",
+      "name": "Makarna & Salata",
+      "icon": "wheat"
+    },
+    {
+      "id": "baslangiclar",
+      "name": "Başlangıçlar",
+      "icon": "soup"
+    },
+    {
+      "id": "sicak-icecekler",
+      "name": "Sıcak İçecekler",
+      "icon": "leaf"
+    },
+    {
+      "id": "kahveler",
+      "name": "Kahveler",
+      "icon": "coffee"
+    },
+    {
+      "id": "serinletici-icecekler",
+      "name": "Serinletici İçecekler",
+      "icon": "citrus"
+    },
+    {
+      "id": "mesrubatlar",
+      "name": "Meşrubatlar",
+      "icon": "cup"
+    },
+    {
+      "id": "buzlu-lezzetler",
+      "name": "Buzlu Lezzetler",
+      "icon": "snowflake"
+    },
+    {
+      "id": "nargile",
+      "name": "Nargile",
+      "icon": "wind"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "categoryId": "kahvaltilar",
+      "name": "Paşam Serpme Kahvaltı",
+      "description": "Beyaz peynir, Ezine peyniri, kaşar, tulum peyniri, acuka, vişne reçeli, bal-kaymak, Nutella, siyah-yeşil zeytin, domates-salatalık, patates, sigara böreği, sucuklu yumurta, ekstra yumurta, pişi, yumurtalı ekmek.",
+      "price": 900,
+      "visible": true,
+      "subCategory": "Serpme Kahvaltı"
+    },
+    {
+      "id": "p2",
+      "categoryId": "kahvaltilar",
+      "name": "Kahvaltı Tabağı",
+      "description": "Beyaz peynir, kaşar peynir, haşlanmış yumurta, Nutella, zeytin, domates-salatalık, 1 adet sigara böreği, bal-kaymak.",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Kahvaltı Tabağı"
+    },
+    {
+      "id": "p3",
+      "categoryId": "kahvaltilar",
+      "name": "Mini Kahvaltı Tabağı",
+      "description": "Beyaz peynir, kaşar peynir, haşlanmış yumurta, Nutella, zeytin, domates-salatalık, bal-kaymak.",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Mini Kahvaltı Tabağı"
+    },
+    {
+      "id": "p4",
+      "categoryId": "kahvaltilar",
+      "name": "Sahanda Yumurta",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Yumurta Çeşitleri"
+    },
+    {
+      "id": "p5",
+      "categoryId": "kahvaltilar",
+      "name": "Kaşarlı Yumurta",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Yumurta Çeşitleri"
+    },
+    {
+      "id": "p6",
+      "categoryId": "kahvaltilar",
+      "name": "Sucuklu Yumurta",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Yumurta Çeşitleri"
+    },
+    {
+      "id": "p7",
+      "categoryId": "kahvaltilar",
+      "name": "Kavurmalı Yumurta",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Yumurta Çeşitleri"
+    },
+    {
+      "id": "p8",
+      "categoryId": "kahvaltilar",
+      "name": "Sucuk - Kaşar Yumurta",
+      "description": "",
+      "price": 320,
+      "visible": true,
+      "subCategory": "Yumurta Çeşitleri"
+    },
+    {
+      "id": "p9",
+      "categoryId": "kahvaltilar",
+      "name": "Sade Omlet",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Omlet Çeşitleri"
+    },
+    {
+      "id": "p10",
+      "categoryId": "kahvaltilar",
+      "name": "Sucuklu Omlet",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Omlet Çeşitleri"
+    },
+    {
+      "id": "p11",
+      "categoryId": "kahvaltilar",
+      "name": "Kaşarlı Omlet",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Omlet Çeşitleri"
+    },
+    {
+      "id": "p12",
+      "categoryId": "kahvaltilar",
+      "name": "Beyaz Peynirli Omlet",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Omlet Çeşitleri"
+    },
+    {
+      "id": "p13",
+      "categoryId": "kahvaltilar",
+      "name": "Sucuk - Kaşar Omlet",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Omlet Çeşitleri"
+    },
+    {
+      "id": "p14",
+      "categoryId": "kahvaltilar",
+      "name": "Sade Menemen",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Menemen Çeşitleri"
+    },
+    {
+      "id": "p15",
+      "categoryId": "kahvaltilar",
+      "name": "Sucuklu Menemen",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Menemen Çeşitleri"
+    },
+    {
+      "id": "p16",
+      "categoryId": "kahvaltilar",
+      "name": "Kaşarlı Menemen",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Menemen Çeşitleri"
+    },
+    {
+      "id": "p17",
+      "categoryId": "kahvaltilar",
+      "name": "Karışık Menemen",
+      "description": "",
+      "price": 380,
+      "visible": true,
+      "subCategory": "Menemen Çeşitleri"
+    },
+    {
+      "id": "p18",
+      "categoryId": "kahvaltilar",
+      "name": "Kavurmalı Menemen",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Menemen Çeşitleri"
+    },
+    {
+      "id": "p19",
+      "categoryId": "kahvaltilar",
+      "name": "Sucuklu - Kaşarlı Menemen",
+      "description": "",
+      "price": 380,
+      "visible": true,
+      "subCategory": "Menemen Çeşitleri"
+    },
+    {
+      "id": "p20",
+      "categoryId": "ana-yemekler",
+      "name": "Mantarlı Soslu Tavuk",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p21",
+      "categoryId": "ana-yemekler",
+      "name": "Dağ Kekikli Tavuk",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p22",
+      "categoryId": "ana-yemekler",
+      "name": "Meksika Soslu Tavuk",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p23",
+      "categoryId": "ana-yemekler",
+      "name": "Köri Soslu Tavuk",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p24",
+      "categoryId": "ana-yemekler",
+      "name": "BBQ Soslu Tavuk",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p25",
+      "categoryId": "ana-yemekler",
+      "name": "Tavuk Sote",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p26",
+      "categoryId": "ana-yemekler",
+      "name": "Izgara Tavuk Bonfile",
+      "description": "",
+      "price": 500,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p27",
+      "categoryId": "ana-yemekler",
+      "name": "Tavuk Şnitzel",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Beyaz Etler"
+    },
+    {
+      "id": "p28",
+      "categoryId": "ana-yemekler",
+      "name": "Saç Tava",
+      "description": "",
+      "price": 800,
+      "visible": true,
+      "subCategory": "Kırmızı Etler"
+    },
+    {
+      "id": "p29",
+      "categoryId": "ana-yemekler",
+      "name": "Et Sote",
+      "description": "",
+      "price": 800,
+      "visible": true,
+      "subCategory": "Kırmızı Etler"
+    },
+    {
+      "id": "p30",
+      "categoryId": "ana-yemekler",
+      "name": "Çoban Kavurma",
+      "description": "",
+      "price": 800,
+      "visible": true,
+      "subCategory": "Kırmızı Etler"
+    },
+    {
+      "id": "p31",
+      "categoryId": "ana-yemekler",
+      "name": "Izgara Köfte",
+      "description": "",
+      "price": 500,
+      "visible": true,
+      "subCategory": "Kırmızı Etler"
+    },
+    {
+      "id": "p32",
+      "categoryId": "ana-yemekler",
+      "name": "Kaşarlı Köfte",
+      "description": "",
+      "price": 520,
+      "visible": true,
+      "subCategory": "Kırmızı Etler"
+    },
+    {
+      "id": "p33",
+      "categoryId": "burger-wrap-patso",
+      "name": "Klasik Burger",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Hamburger Çeşitleri"
+    },
+    {
+      "id": "p34",
+      "categoryId": "burger-wrap-patso",
+      "name": "Cheeseburger",
+      "description": "",
+      "price": 430,
+      "visible": true,
+      "subCategory": "Hamburger Çeşitleri"
+    },
+    {
+      "id": "p35",
+      "categoryId": "burger-wrap-patso",
+      "name": "Mexican Burger",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Hamburger Çeşitleri"
+    },
+    {
+      "id": "p36",
+      "categoryId": "burger-wrap-patso",
+      "name": "BBQ Soslu Burger",
+      "description": "",
+      "price": 430,
+      "visible": true,
+      "subCategory": "Hamburger Çeşitleri"
+    },
+    {
+      "id": "p37",
+      "categoryId": "burger-wrap-patso",
+      "name": "Chicken Burger",
+      "description": "",
+      "price": 370,
+      "visible": true,
+      "subCategory": "Hamburger Çeşitleri"
+    },
+    {
+      "id": "p38",
+      "categoryId": "burger-wrap-patso",
+      "name": "Big Burger",
+      "description": "",
+      "price": 430,
+      "visible": true,
+      "subCategory": "Hamburger Çeşitleri"
+    },
+    {
+      "id": "p39",
+      "categoryId": "burger-wrap-patso",
+      "name": "Etli Wrap",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Wrap Çeşitleri"
+    },
+    {
+      "id": "p40",
+      "categoryId": "burger-wrap-patso",
+      "name": "Köfte Wrap",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Wrap Çeşitleri"
+    },
+    {
+      "id": "p41",
+      "categoryId": "burger-wrap-patso",
+      "name": "Tavuk Wrap",
+      "description": "",
+      "price": 380,
+      "visible": true,
+      "subCategory": "Wrap Çeşitleri"
+    },
+    {
+      "id": "p42",
+      "categoryId": "burger-wrap-patso",
+      "name": "Köri Soslu Wrap",
+      "description": "",
+      "price": 380,
+      "visible": true,
+      "subCategory": "Wrap Çeşitleri"
+    },
+    {
+      "id": "p43",
+      "categoryId": "ana-yemekler",
+      "name": "Tavuklu Quesadilla",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Meksika Mutfağı"
+    },
+    {
+      "id": "p44",
+      "categoryId": "ana-yemekler",
+      "name": "Etli Quesadilla",
+      "description": "",
+      "price": 550,
+      "visible": true,
+      "subCategory": "Meksika Mutfağı"
+    },
+    {
+      "id": "p45",
+      "categoryId": "ana-yemekler",
+      "name": "Beef Fajita",
+      "description": "",
+      "price": 600,
+      "visible": true,
+      "priceUnverified": true,
+      "subCategory": "Meksika Mutfağı"
+    },
+    {
+      "id": "p46",
+      "categoryId": "ana-yemekler",
+      "name": "Chicken Fajita",
+      "description": "",
+      "price": 550,
+      "visible": true,
+      "priceUnverified": true,
+      "subCategory": "Meksika Mutfağı"
+    },
+    {
+      "id": "p47",
+      "categoryId": "ana-yemekler",
+      "name": "Combo Fajita",
+      "description": "",
+      "price": 650,
+      "visible": true,
+      "priceUnverified": true,
+      "subCategory": "Meksika Mutfağı"
+    },
+    {
+      "id": "p48",
+      "categoryId": "makarna-salata",
+      "name": "Fettuccine Alfredo",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p49",
+      "categoryId": "makarna-salata",
+      "name": "Penne Arabiata",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p50",
+      "categoryId": "makarna-salata",
+      "name": "Köri Soslu Penne",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p51",
+      "categoryId": "makarna-salata",
+      "name": "Penne Polo Tavuklu",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p52",
+      "categoryId": "makarna-salata",
+      "name": "Yoğurtlu Kıymalı Makarna",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p53",
+      "categoryId": "makarna-salata",
+      "name": "Spagetti Bolonez",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p54",
+      "categoryId": "makarna-salata",
+      "name": "Spagetti Napoliten",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p55",
+      "categoryId": "makarna-salata",
+      "name": "Ev Mantısı",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Makarna Çeşitleri"
+    },
+    {
+      "id": "p56",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Beyaz Peynirli Sandviç",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Sandviç Çeşitleri"
+    },
+    {
+      "id": "p57",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Kaşar Peynirli Sandviç",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Sandviç Çeşitleri"
+    },
+    {
+      "id": "p58",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Karışık Sandviç",
+      "description": "Kaşar, sucuk, kavurma.",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Sandviç Çeşitleri"
+    },
+    {
+      "id": "p59",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Tavuklu Sandviç",
+      "description": "",
+      "price": 320,
+      "visible": true,
+      "subCategory": "Sandviç Çeşitleri"
+    },
+    {
+      "id": "p60",
+      "categoryId": "burger-wrap-patso",
+      "name": "Sade Patso",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Patso"
+    },
+    {
+      "id": "p61",
+      "categoryId": "burger-wrap-patso",
+      "name": "Sosisli Patso",
+      "description": "",
+      "price": 280,
+      "visible": true,
+      "subCategory": "Patso"
+    },
+    {
+      "id": "p62",
+      "categoryId": "burger-wrap-patso",
+      "name": "Sosisli Kaşarlı Patso",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Patso"
+    },
+    {
+      "id": "p63",
+      "categoryId": "burger-wrap-patso",
+      "name": "Tavuklu Patso",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Patso"
+    },
+    {
+      "id": "p64",
+      "categoryId": "burger-wrap-patso",
+      "name": "Sucuklu Patso",
+      "description": "",
+      "price": 280,
+      "visible": true,
+      "subCategory": "Patso"
+    },
+    {
+      "id": "p65",
+      "categoryId": "burger-wrap-patso",
+      "name": "Sucuklu Kaşarlı Patso",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Patso"
+    },
+    {
+      "id": "p66",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Kaşarlı Tost",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Tost Çeşitleri"
+    },
+    {
+      "id": "p67",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Karışık Tost",
+      "description": "",
+      "price": 270,
+      "visible": true,
+      "subCategory": "Tost Çeşitleri"
+    },
+    {
+      "id": "p68",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Kavurmalı Kaşarlı Tost",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Tost Çeşitleri"
+    },
+    {
+      "id": "p69",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Ayvalık Tost",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Tost Çeşitleri"
+    },
+    {
+      "id": "p70",
+      "categoryId": "makarna-salata",
+      "name": "Akdeniz Salata",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Salata Çeşitleri"
+    },
+    {
+      "id": "p71",
+      "categoryId": "makarna-salata",
+      "name": "Mevsim Salata",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Salata Çeşitleri"
+    },
+    {
+      "id": "p72",
+      "categoryId": "makarna-salata",
+      "name": "Çoban Salata",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Salata Çeşitleri"
+    },
+    {
+      "id": "p73",
+      "categoryId": "makarna-salata",
+      "name": "Sezar Salata",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Salata Çeşitleri"
+    },
+    {
+      "id": "p74",
+      "categoryId": "makarna-salata",
+      "name": "Çıtır Tavuk Salata",
+      "description": "",
+      "price": 350,
+      "visible": true,
+      "subCategory": "Salata Çeşitleri"
+    },
+    {
+      "id": "p75",
+      "categoryId": "makarna-salata",
+      "name": "Gavurdağ Salata",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Salata Çeşitleri"
+    },
+    {
+      "id": "p76",
+      "categoryId": "baslangiclar",
+      "name": "Günün Çorbası",
+      "description": "",
+      "price": 200,
+      "visible": true
+    },
+    {
+      "id": "p77",
+      "categoryId": "baslangiclar",
+      "name": "Kombo Sepeti",
+      "description": "Patates, soğan halkası, nugget, sigara böreği.",
+      "price": 370,
+      "visible": true
+    },
+    {
+      "id": "p78",
+      "categoryId": "baslangiclar",
+      "name": "Sosis Keyfi",
+      "description": "Patates + sosis, özel sos ile.",
+      "price": 300,
+      "visible": true
+    },
+    {
+      "id": "p79",
+      "categoryId": "baslangiclar",
+      "name": "Cajun Basket",
+      "description": "Patates + pane tavuk parçaları, özel sos ile.",
+      "price": 370,
+      "visible": true
+    },
+    {
+      "id": "p80",
+      "categoryId": "baslangiclar",
+      "name": "Nugget Tabağı",
+      "description": "Patates + nugget, özel sos ile.",
+      "price": 300,
+      "visible": true
+    },
+    {
+      "id": "p81",
+      "categoryId": "baslangiclar",
+      "name": "Parmak Patates",
+      "description": "",
+      "price": 250,
+      "visible": true
+    },
+    {
+      "id": "p82",
+      "categoryId": "baslangiclar",
+      "name": "Sigara Böreği",
+      "description": "",
+      "price": 250,
+      "visible": true
+    },
+    {
+      "id": "p83",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Kaşar Peynirli Gözleme",
+      "description": "",
+      "price": 280,
+      "visible": true,
+      "subCategory": "Gözleme Çeşitleri"
+    },
+    {
+      "id": "p84",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Beyaz Peynirli Gözleme",
+      "description": "",
+      "price": 280,
+      "visible": true,
+      "subCategory": "Gözleme Çeşitleri"
+    },
+    {
+      "id": "p85",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Kavurmalı Kaşarlı Gözleme",
+      "description": "",
+      "price": 400,
+      "visible": true,
+      "subCategory": "Gözleme Çeşitleri"
+    },
+    {
+      "id": "p86",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Sucuklu Kaşarlı Gözleme",
+      "description": "",
+      "price": 320,
+      "visible": true,
+      "subCategory": "Gözleme Çeşitleri"
+    },
+    {
+      "id": "p87",
+      "categoryId": "tost-sandvic-gozleme",
+      "name": "Patatesli Kaşarlı Gözleme",
+      "description": "",
+      "price": 300,
+      "visible": true,
+      "subCategory": "Gözleme Çeşitleri"
+    },
+    {
+      "id": "p88",
+      "categoryId": "sicak-icecekler",
+      "name": "Ihlamur Çayı",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Bitki Çayları"
+    },
+    {
+      "id": "p89",
+      "categoryId": "sicak-icecekler",
+      "name": "Ada Çayı",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Bitki Çayları"
+    },
+    {
+      "id": "p90",
+      "categoryId": "sicak-icecekler",
+      "name": "Papatya Çayı",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Bitki Çayları"
+    },
+    {
+      "id": "p91",
+      "categoryId": "sicak-icecekler",
+      "name": "Kış Çayı",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Bitki Çayları"
+    },
+    {
+      "id": "p92",
+      "categoryId": "sicak-icecekler",
+      "name": "Yeşil Çay",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Bitki Çayları"
+    },
+    {
+      "id": "p93",
+      "categoryId": "sicak-icecekler",
+      "name": "Melisa Çayı",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Bitki Çayları"
+    },
+    {
+      "id": "p94",
+      "categoryId": "sicak-icecekler",
+      "name": "Nane Limon Çayı",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Bitki Çayları"
+    },
+    {
+      "id": "p95",
+      "categoryId": "sicak-icecekler",
+      "name": "Bardak Çay",
+      "description": "",
+      "price": 40,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p96",
+      "categoryId": "sicak-icecekler",
+      "name": "Fincan Çay",
+      "description": "",
+      "price": 70,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p97",
+      "categoryId": "sicak-icecekler",
+      "name": "Kivi Çayı",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p98",
+      "categoryId": "sicak-icecekler",
+      "name": "Portakal Çayı",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p99",
+      "categoryId": "sicak-icecekler",
+      "name": "Kuşburnu Çayı",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p100",
+      "categoryId": "sicak-icecekler",
+      "name": "Elma Çayı",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p101",
+      "categoryId": "sicak-icecekler",
+      "name": "Nane Limon Çayı (Fincan)",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p102",
+      "categoryId": "sicak-icecekler",
+      "name": "Karadut Çayı",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p103",
+      "categoryId": "sicak-icecekler",
+      "name": "Limon Çayı",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p104",
+      "categoryId": "sicak-icecekler",
+      "name": "Muz Çayı",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p105",
+      "categoryId": "sicak-icecekler",
+      "name": "Kakao",
+      "description": "",
+      "price": 55,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p106",
+      "categoryId": "sicak-icecekler",
+      "name": "Salep",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p107",
+      "categoryId": "sicak-icecekler",
+      "name": "Sıcak Çikolata",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Sıcak İçecekler"
+    },
+    {
+      "id": "p108",
+      "categoryId": "kahveler",
+      "name": "Türk Kahvesi",
+      "description": "",
+      "price": 130,
+      "visible": true,
+      "subCategory": "Yöresel Kahveler",
+      "order": 3
+    },
+    {
+      "id": "p109",
+      "categoryId": "kahveler",
+      "name": "Dibek Kahve",
+      "description": "",
+      "price": 150,
+      "visible": true,
+      "subCategory": "Yöresel Kahveler",
+      "order": 3
+    },
+    {
+      "id": "p110",
+      "categoryId": "kahveler",
+      "name": "Osmanlı Kahvesi",
+      "description": "",
+      "price": 150,
+      "visible": true,
+      "subCategory": "Yöresel Kahveler",
+      "order": 3
+    },
+    {
+      "id": "p111",
+      "categoryId": "kahveler",
+      "name": "Menengiç Kahvesi",
+      "description": "",
+      "price": 150,
+      "visible": true,
+      "subCategory": "Yöresel Kahveler",
+      "order": 3
+    },
+    {
+      "id": "p112",
+      "categoryId": "kahveler",
+      "name": "Damlasakızlı Kahve",
+      "description": "",
+      "price": 150,
+      "visible": true,
+      "subCategory": "Yöresel Kahveler",
+      "order": 3
+    },
+    {
+      "id": "p113",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Çikolatalı Frappe",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frappe Çeşitleri"
+    },
+    {
+      "id": "p114",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Vanilyalı Frappe",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frappe Çeşitleri"
+    },
+    {
+      "id": "p115",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Karamelli Frappe",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frappe Çeşitleri"
+    },
+    {
+      "id": "p116",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Oreolu Frappe",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frappe Çeşitleri"
+    },
+    {
+      "id": "p117",
+      "categoryId": "kahveler",
+      "name": "Espresso (Double)",
+      "description": "",
+      "price": 170,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p118",
+      "categoryId": "kahveler",
+      "name": "Espresso (Single)",
+      "description": "",
+      "price": 140,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p119",
+      "categoryId": "kahveler",
+      "name": "Americano",
+      "description": "",
+      "price": 160,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p120",
+      "categoryId": "kahveler",
+      "name": "Latte",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p121",
+      "categoryId": "kahveler",
+      "name": "Cappuccino",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p122",
+      "categoryId": "kahveler",
+      "name": "Mocha",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p123",
+      "categoryId": "kahveler",
+      "name": "Caramel Mocha",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p124",
+      "categoryId": "kahveler",
+      "name": "Caramel Macchiato",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p125",
+      "categoryId": "kahveler",
+      "name": "White Mocha",
+      "description": "",
+      "price": 180,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p126",
+      "categoryId": "kahveler",
+      "name": "Filtre Kahve",
+      "description": "",
+      "price": 160,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p127",
+      "categoryId": "kahveler",
+      "name": "Nescafe",
+      "description": "",
+      "price": 160,
+      "visible": true,
+      "subCategory": "Espresso Bazlı Kahveler",
+      "order": 2
+    },
+    {
+      "id": "p128",
+      "categoryId": "kahveler",
+      "name": "Ice Latte",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Soğuk Kahveler",
+      "order": 1
+    },
+    {
+      "id": "p129",
+      "categoryId": "kahveler",
+      "name": "Ice Mocha",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Soğuk Kahveler",
+      "order": 1
+    },
+    {
+      "id": "p130",
+      "categoryId": "kahveler",
+      "name": "Ice White Mocha",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Soğuk Kahveler",
+      "order": 1
+    },
+    {
+      "id": "p131",
+      "categoryId": "kahveler",
+      "name": "Ice Karamel Latte",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Soğuk Kahveler",
+      "order": 1
+    },
+    {
+      "id": "p132",
+      "categoryId": "kahveler",
+      "name": "Ice Americano",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Soğuk Kahveler",
+      "order": 1
+    },
+    {
+      "id": "p133",
+      "categoryId": "kahveler",
+      "name": "Ice Filtre",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Soğuk Kahveler",
+      "order": 1
+    },
+    {
+      "id": "p134",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Çikolatalı Milkshake",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Milkshake Çeşitleri"
+    },
+    {
+      "id": "p135",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Vanilyalı Milkshake",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Milkshake Çeşitleri"
+    },
+    {
+      "id": "p136",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Çilekli Milkshake",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Milkshake Çeşitleri"
+    },
+    {
+      "id": "p137",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Oreo Milkshake",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Milkshake Çeşitleri"
+    },
+    {
+      "id": "p138",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Muzlu Milkshake",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Milkshake Çeşitleri"
+    },
+    {
+      "id": "p139",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Karamelli Milkshake",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Milkshake Çeşitleri"
+    },
+    {
+      "id": "p140",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Cici Bebe Milkshake",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Milkshake Çeşitleri"
+    },
+    {
+      "id": "p141",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Oreo Frozen",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frozen"
+    },
+    {
+      "id": "p142",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Çilek Frozen",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frozen"
+    },
+    {
+      "id": "p143",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Mango Frozen",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frozen"
+    },
+    {
+      "id": "p144",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Limon Frozen",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frozen"
+    },
+    {
+      "id": "p145",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Karpuz Frozen",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frozen"
+    },
+    {
+      "id": "p146",
+      "categoryId": "buzlu-lezzetler",
+      "name": "Kivi Frozen",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Frozen"
+    },
+    {
+      "id": "p147",
+      "categoryId": "serinletici-icecekler",
+      "name": "Mojito",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Alkolsüz Meyve Kokteylleri"
+    },
+    {
+      "id": "p148",
+      "categoryId": "serinletici-icecekler",
+      "name": "Berry Mix",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Alkolsüz Meyve Kokteylleri"
+    },
+    {
+      "id": "p149",
+      "categoryId": "serinletici-icecekler",
+      "name": "Tropic Dream",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Alkolsüz Meyve Kokteylleri"
+    },
+    {
+      "id": "p150",
+      "categoryId": "serinletici-icecekler",
+      "name": "Led Lover",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Alkolsüz Meyve Kokteylleri"
+    },
+    {
+      "id": "p151",
+      "categoryId": "serinletici-icecekler",
+      "name": "Klasik Limonata",
+      "description": "",
+      "price": 170,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p152",
+      "categoryId": "serinletici-icecekler",
+      "name": "Çilekli Limonata",
+      "description": "",
+      "price": 170,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p153",
+      "categoryId": "serinletici-icecekler",
+      "name": "Sıkma Portakal",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p154",
+      "categoryId": "serinletici-icecekler",
+      "name": "Sıkma Nar",
+      "description": "",
+      "price": 270,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p155",
+      "categoryId": "serinletici-icecekler",
+      "name": "Meşrubat Çeşitleri",
+      "description": "",
+      "price": 120,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p156",
+      "categoryId": "serinletici-icecekler",
+      "name": "Redbull",
+      "description": "",
+      "price": 200,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p157",
+      "categoryId": "serinletici-icecekler",
+      "name": "Sade Soda",
+      "description": "",
+      "price": 70,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p158",
+      "categoryId": "serinletici-icecekler",
+      "name": "Meyveli Soda",
+      "description": "",
+      "price": 80,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p159",
+      "categoryId": "serinletici-icecekler",
+      "name": "Portakal Suyu",
+      "description": "",
+      "price": 250,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p160",
+      "categoryId": "serinletici-icecekler",
+      "name": "Nar Suyu",
+      "description": "",
+      "price": 270,
+      "visible": true,
+      "subCategory": "Limonata & Soğuk İçecekler"
+    },
+    {
+      "id": "p161",
+      "categoryId": "nargile",
+      "name": "Nahla Elma",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Nahla"
+    },
+    {
+      "id": "p162",
+      "categoryId": "nargile",
+      "name": "Nahla Cappuccino",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Nahla"
+    },
+    {
+      "id": "p163",
+      "categoryId": "nargile",
+      "name": "Nahla Şeftali",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Nahla"
+    },
+    {
+      "id": "p164",
+      "categoryId": "nargile",
+      "name": "Pişmiş Şeftali",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Şerbetli"
+    },
+    {
+      "id": "p165",
+      "categoryId": "nargile",
+      "name": "B. Mandalina",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Şerbetli"
+    },
+    {
+      "id": "p166",
+      "categoryId": "nargile",
+      "name": "Marbella",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Şerbetli"
+    },
+    {
+      "id": "p167",
+      "categoryId": "nargile",
+      "name": "Çift Elma",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Al Fakher"
+    },
+    {
+      "id": "p168",
+      "categoryId": "nargile",
+      "name": "Üzüm",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Al Fakher"
+    },
+    {
+      "id": "p169",
+      "categoryId": "nargile",
+      "name": "Yaban Mersini",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Al Fakher"
+    },
+    {
+      "id": "p170",
+      "categoryId": "nargile",
+      "name": "Vivident Mavi Sakız",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Al Fakher"
+    },
+    {
+      "id": "p171",
+      "categoryId": "nargile",
+      "name": "Börtlen",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Al Fakher"
+    },
+    {
+      "id": "p172",
+      "categoryId": "nargile",
+      "name": "Pinkmen",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Jibiar"
+    },
+    {
+      "id": "p173",
+      "categoryId": "nargile",
+      "name": "Plombir",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Jibiar"
+    },
+    {
+      "id": "p174",
+      "categoryId": "nargile",
+      "name": "Diamond",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Jibiar"
+    },
+    {
+      "id": "p175",
+      "categoryId": "nargile",
+      "name": "Bisküvi",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Jibiar"
+    },
+    {
+      "id": "p176",
+      "categoryId": "nargile",
+      "name": "Turkish Mastic",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Jibiar"
+    },
+    {
+      "id": "p177",
+      "categoryId": "nargile",
+      "name": "Lody Killer",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Adalya"
+    },
+    {
+      "id": "p178",
+      "categoryId": "nargile",
+      "name": "Lowe 66",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Adalya"
+    },
+    {
+      "id": "p179",
+      "categoryId": "nargile",
+      "name": "İzmir Romantik",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Adalya"
+    },
+    {
+      "id": "p180",
+      "categoryId": "nargile",
+      "name": "Moskow Evening",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Adalya"
+    },
+    {
+      "id": "p181",
+      "categoryId": "nargile",
+      "name": "Mango",
+      "description": "",
+      "price": 450,
+      "visible": true,
+      "subCategory": "Adalya"
+    },
+    {
+      "id": "p182",
+      "categoryId": "nargile",
+      "name": "Pinkmen (Dark)",
+      "description": "",
+      "price": 650,
+      "visible": true,
+      "subCategory": "Dark Çeşitleri"
+    },
+    {
+      "id": "p183",
+      "categoryId": "nargile",
+      "name": "Banana (Dark)",
+      "description": "",
+      "price": 650,
+      "visible": true,
+      "subCategory": "Dark Çeşitleri"
+    },
+    {
+      "id": "p184",
+      "categoryId": "nargile",
+      "name": "Kivi Smoti",
+      "description": "",
+      "price": 650,
+      "visible": true,
+      "subCategory": "Dark Çeşitleri"
+    },
+    {
+      "id": "p185",
+      "categoryId": "nargile",
+      "name": "Browni",
+      "description": "",
+      "price": 650,
+      "visible": true,
+      "subCategory": "Dark Çeşitleri"
+    },
+    {
+      "id": "p186",
+      "categoryId": "nargile",
+      "name": "Cheesecake (Dark)",
+      "description": "",
+      "price": 650,
+      "visible": true,
+      "subCategory": "Dark Çeşitleri"
+    },
+    {
+      "id": "p187",
+      "categoryId": "nargile",
+      "name": "Özel Spesial",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Special"
+    },
+    {
+      "id": "p188",
+      "categoryId": "nargile",
+      "name": "Paşanın Spesial",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Special"
+    },
+    {
+      "id": "p189",
+      "categoryId": "nargile",
+      "name": "Antartika",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Special"
+    },
+    {
+      "id": "p190",
+      "categoryId": "nargile",
+      "name": "Amazon",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Special"
+    },
+    {
+      "id": "p191",
+      "categoryId": "nargile",
+      "name": "Havai",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Special"
+    },
+    {
+      "id": "p192",
+      "categoryId": "nargile",
+      "name": "Dejavu",
+      "description": "",
+      "price": 480,
+      "visible": true,
+      "subCategory": "Special"
+    },
+    {
+      "id": "p193",
+      "categoryId": "mesrubatlar",
+      "name": "Red Bull",
+      "description": "",
+      "price": 200,
+      "visible": true
+    },
+    {
+      "id": "p194",
+      "categoryId": "mesrubatlar",
+      "name": "Coca-Cola",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p195",
+      "categoryId": "mesrubatlar",
+      "name": "Coca-Cola Zero",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p196",
+      "categoryId": "mesrubatlar",
+      "name": "Fanta",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p197",
+      "categoryId": "mesrubatlar",
+      "name": "Sprite",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p198",
+      "categoryId": "mesrubatlar",
+      "name": "Sarıyer Kola",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p199",
+      "categoryId": "mesrubatlar",
+      "name": "Niğde Gazoz",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p200",
+      "categoryId": "mesrubatlar",
+      "name": "Ice Tea (Şeftali)",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p201",
+      "categoryId": "mesrubatlar",
+      "name": "Ice Tea (Limon)",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p202",
+      "categoryId": "mesrubatlar",
+      "name": "Ice Tea (Mango)",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p203",
+      "categoryId": "mesrubatlar",
+      "name": "Cappy Kayısı",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p204",
+      "categoryId": "mesrubatlar",
+      "name": "Cappy Şeftali",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p205",
+      "categoryId": "mesrubatlar",
+      "name": "Cappy Vişne",
+      "description": "",
+      "price": 120,
+      "visible": true
+    },
+    {
+      "id": "p206",
+      "categoryId": "mesrubatlar",
+      "name": "Beypazarı Soda",
+      "description": "",
+      "price": 70,
+      "visible": true
+    },
+    {
+      "id": "p207",
+      "categoryId": "mesrubatlar",
+      "name": "Meyveli Soda (Limon)",
+      "description": "",
+      "price": 80,
+      "visible": true
+    },
+    {
+      "id": "p208",
+      "categoryId": "mesrubatlar",
+      "name": "Meyveli Soda (Mandalina)",
+      "description": "",
+      "price": 80,
+      "visible": true
+    },
+    {
+      "id": "p209",
+      "categoryId": "mesrubatlar",
+      "name": "Meyveli Soda (Çilek)",
+      "description": "",
+      "price": 80,
+      "visible": true
+    },
+    {
+      "id": "p210",
+      "categoryId": "mesrubatlar",
+      "name": "Meyveli Soda (Karpuz)",
+      "description": "",
+      "price": 80,
+      "visible": true
+    },
+    {
+      "id": "p211",
+      "categoryId": "mesrubatlar",
+      "name": "Büyük Ayran",
+      "description": "",
+      "price": 100,
+      "visible": true
+    },
+    {
+      "id": "p212",
+      "categoryId": "mesrubatlar",
+      "name": "Su",
+      "description": "",
+      "price": 40,
+      "visible": true
+    }
+  ]
+}

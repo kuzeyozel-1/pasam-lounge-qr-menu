@@ -1,0 +1,47 @@
+{
+  "general": {
+    "siteName": "Paşam Lounge",
+    "logoLight": "/gorseller/logo-light.png",
+    "logoDark": "/gorseller/logo-dark.png",
+    "favicon": "/gorseller/logo-dark.png",
+    "defaultProductImage": ""
+  },
+  "wifi": {
+    "password": "pasam2026"
+  },
+  "finance": {
+    "currency": "TRY",
+    "vatRate": 10
+  },
+  "header": {
+    "workingHours": { "value": "Her gün 08:00 - 24:00", "visible": true },
+    "address": {
+      "value": "Bağdat Caddesi No: 123, Kadıköy / İstanbul",
+      "visible": true
+    },
+    "phone": { "value": "", "visible": false },
+    "email": { "value": "", "visible": false },
+    "website": { "value": "", "visible": false },
+    "mapLink": { "value": "", "visible": false }
+  },
+  "social": {
+    "facebook": { "value": "", "visible": false },
+    "instagram": {
+      "value": "https://instagram.com/pasamloungecekmekoy",
+      "visible": true
+    },
+    "whatsapp": { "value": "", "visible": false },
+    "tiktok": {
+      "value": "https://www.tiktok.com/@pasamloungecekmekoy",
+      "visible": true
+    }
+  },
+  "reviewPopup": {
+    "enabled": false,
+    "title": "Bizi Google'da değerlendirin!",
+    "description": "Deneyiminizi bizimle paylaşın, yorumunuz bizim için çok değerli.",
+    "image": "",
+    "delaySeconds": 15,
+    "googleMapsLink": ""
+  }
+}
