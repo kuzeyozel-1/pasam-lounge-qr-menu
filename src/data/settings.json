@@ -4,7 +4,7 @@
     "logoLight": "/gorseller/logo-light.png",
     "logoDark": "/gorseller/logo-dark.png",
     "favicon": "/gorseller/logo-dark.png",
-    "defaultProductImage": ""
+    "defaultProductImage": "/gorseller/logo-light.png"
   },
   "wifi": {
     "password": "pasam2026"
@@ -14,23 +14,44 @@
     "vatRate": 10
   },
   "header": {
-    "workingHours": { "value": "Her gün 08:00 - 24:00", "visible": true },
-    "address": {
-      "value": "Bağdat Caddesi No: 123, Kadıköy / İstanbul",
+    "workingHours": {
+      "value": "Her gün 08:00 - 24:00",
       "visible": true
     },
-    "phone": { "value": "", "visible": false },
-    "email": { "value": "", "visible": false },
-    "website": { "value": "", "visible": false },
-    "mapLink": { "value": "", "visible": false }
+    "address": {
+      "value": "Mehmet Akif, Recep Ayan Cd. No:1, Çekmeköy/İstanbul",
+      "visible": true
+    },
+    "phone": {
+      "value": "",
+      "visible": false
+    },
+    "email": {
+      "value": "",
+      "visible": false
+    },
+    "website": {
+      "value": "",
+      "visible": false
+    },
+    "mapLink": {
+      "value": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x14cacf0e3a9a1aa3:0x767ad78f9ce16360?sa=X&ved=1t:8290&ictx=111",
+      "visible": true
+    }
   },
   "social": {
-    "facebook": { "value": "", "visible": false },
+    "facebook": {
+      "value": "",
+      "visible": false
+    },
     "instagram": {
       "value": "https://instagram.com/pasamloungecekmekoy",
       "visible": true
     },
-    "whatsapp": { "value": "", "visible": false },
+    "whatsapp": {
+      "value": "",
+      "visible": false
+    },
     "tiktok": {
       "value": "https://www.tiktok.com/@pasamloungecekmekoy",
       "visible": true
