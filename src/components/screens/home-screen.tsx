@@ -10,6 +10,7 @@ import { BottomSheet } from "@/components/ui/bottom-sheet";
 import { WifiSheetContent } from "@/components/menu/wifi-sheet-content";
 import { LocationSheetContent } from "@/components/menu/location-sheet-content";
 import { ReviewPopup } from "@/components/menu/review-popup";
+import { SiteFooter } from "@/components/layout/site-footer";
 import { useMenu } from "@/context/menu-provider";
 
 type SheetId = "wifi" | "location" | null;
@@ -93,6 +94,7 @@ export function HomeScreen() {
           groupBySubCategory={selectedCategory !== "all"}
           listKey={selectedCategory}
         />
+        <SiteFooter />
       </div>
       <BottomNav active={activeTab} onSelect={handleNavSelect} />
       <BottomSheet
